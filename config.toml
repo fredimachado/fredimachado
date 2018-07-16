@@ -2,3 +2,36 @@ baseURL = "http://fredimachado.netlify.com/"
 languageCode = "en-gb"
 title = "Fredi Machado"
 theme = "hugo-goa"
+
+## Site Settings
+[params]
+author = "Fredi Machado"
+intro = "Software Developer @Readify"
+description = "electronics geek, guitarist/drummer, fascinated by technology and astronomy."
+authorimage = "fredi-machado.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Fredi Machado's Website"
+keywords = "software,development,developer"
+
+## Social Accounts
+[params.social]
+github = "fredimachado"
+linkedin = "fredimachado"
+twitter = "fredimachado"
+youtube =  "http://goo.gl/Ut5jlI"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Fredi Machado. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
