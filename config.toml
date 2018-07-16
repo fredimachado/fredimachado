@@ -1,0 +1,4 @@
+baseURL = "http://fredimachado.netlify.com/"
+languageCode = "en-gb"
+title = "Fredi Machado"
+theme = "hugo-goa"
