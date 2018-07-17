@@ -1,4 +1,4 @@
-baseURL = "https://fredimachado.netlify.com/"
+baseURL = "/"
 languageCode = "en-gb"
 title = "Fredi Machado"
 theme = "hugo-goa"
