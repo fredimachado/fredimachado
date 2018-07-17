@@ -29,6 +29,7 @@ twitch = "fredimachadotv"
 copyright = "© 2018. Fredi Machado. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = true
 highlightjs = true
+analyticstrackingid = "UA-55100633-3"
 
 ## Main menu
 [[menu.main]]
