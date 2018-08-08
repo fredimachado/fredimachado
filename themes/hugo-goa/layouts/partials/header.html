@@ -35,7 +35,7 @@ clicky_site_ids.push({{ . }});
 
 <base href="{{ .Site.BaseURL }}">
 
-<title>{{ .Site.Title }}</title>
+<title>{{ if not (eq .Site.Title .Title) }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
 
 {{ .Hugo.Generator }}
 
