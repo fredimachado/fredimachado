@@ -3,6 +3,10 @@ languageCode = "en-gb"
 title = "Fredi Machado"
 theme = "hugo-goa"
 
+## Hugo Built-in Features
+googleAnalytics = "UA-55100633-3"
+enableRobotsTXT = true
+
 ## Site Settings
 [params]
 author = "Fredi Machado"
@@ -29,7 +33,6 @@ twitch = "fredimachadotv"
 copyright = "© 2018. Fredi Machado. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = true
 highlightjs = true
-analyticstrackingid = "UA-55100633-3"
 clickyid = "101129702"
 
 ## Main menu

@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 <head>
-{{ with .Site.Params.extra.analyticstrackingid }}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ . }}');
-</script>
-{{ end }}
 {{ with .Site.Params.extra.clickyid }}
 <script type="text/javascript">
 var clicky_site_ids = clicky_site_ids || [];
