@@ -25,11 +25,10 @@
     {{ .Content }}
   </div>
 </section>
+{{ if and (eq .Params.showpagemeta true) (isset .Params "tags") }}
 <section id="tag-pane" class="row meta">
-  {{ if ne .Params.showpagemeta false }}
   <div class="col-md-12">
     <h6 class="text-right meta">
-      {{ if isset .Params "tags" }}
       {{ $total := len .Params.tags }}
       {{ if gt $total 0 }}
       TAGS:
@@ -38,8 +37,7 @@
       <a class="meta" href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>{{ if lt $i $subtotal }}, {{ end }}
       {{ end }}
       {{ end }}
-      {{ end }}
     </h6>
   </div>
-  {{ end }}
 </section>
+{{ end }}
