@@ -41,3 +41,8 @@ clickyid = "101129702"
     identifier = "about"
     weight = 200
     url = "/about/"
+[[menu.main]]
+    name = "random"
+    identifier = "random"
+    weight = 200
+    url = "/random/"
