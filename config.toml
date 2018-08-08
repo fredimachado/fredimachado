@@ -7,7 +7,7 @@ theme = "hugo-goa"
 [params]
 author = "Fredi Machado"
 intro = "Software Developer @Readify"
-description = "gamer, electronics geek, guitarist/drummer, fascinated by technology and astronomy."
+description = "electronics geek, guitarist/drummer, gamer(ish), fascinated by technology and astronomy."
 authorimage = "fredi-machado.jpg"
 dateformat = "Jan 2, 2006"
 
