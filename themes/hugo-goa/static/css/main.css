@@ -40,6 +40,10 @@ html
     min-height: 100%;
     margin: 0;
 }
+li
+{
+    margin-bottom: 5px;
+}
 .author
 {
     color: #444;
