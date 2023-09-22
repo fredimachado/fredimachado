@@ -1,43 +1,10 @@
-baseURL = "/"
-languageCode = "en-gb"
-title = "Fredi Machado"
-theme = "hugo-goa"
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
 
-## Hugo Built-in Features
-googleAnalytics = "UA-55100633-3"
-enableRobotsTXT = true
+  [build.environment]
+    HUGO_VERSION = "0.118.2"
 
-## Site Settings
-[params]
-author = "Fredi Machado"
-intro = "Software Developer @WooliesX"
-description = "electronics geek, guitarist/drummer, gamer(ish), fascinated by technology and astronomy."
-authorimage = "fredi-machado.jpg"
-dateformat = "Jan 2, 2006"
-
-## Site Meta Settings
-[params.meta]
-description = "Fredi Machado's Website"
-keywords = "software,development,developer"
-
-## Social Accounts
-[params.social]
-github = "fredimachado"
-linkedin = "fredimachado"
-twitter = "fredimachado"
-youtube =  "fredimachadonet"
-twitch = "fredimachadotv"
-
-## Extras
-[params.extra]
-copyright = "© 2018-2023. Fredi Machado. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredby = true
-highlightjs = true
-clickyid = "101129702"
-
-## Main menu
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
+[context.production.environment]
+  HUGO_ENV           = "production"
+  HUGO_ENABLEGITINFO = "true"
