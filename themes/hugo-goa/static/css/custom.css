@@ -1,0 +1,23 @@
+/* Add custom CSS here. */
+a:link
+{
+    font-weight: 400;
+}
+
+h1.author {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#social-pane a {
+    font-size: 2em;
+    margin: 0 8px;
+}
+
+#main-menu-pane {
+    margin-bottom: 30px;
+}
+
+#main-menu-pane .menu-item {
+    font-weight: 400;
+}

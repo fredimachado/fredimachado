@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-Hi! I'm Fredi, a software developer @Readify, based in Sydney, Australia.
+Hi! I'm Fredi, a software developer @WooliesX, based in Gold Coast, Australia.
 
 I'm very passionate about building and delivering great software applications using bleeding edge technology,
 well known practices/techniques and frameworks available.

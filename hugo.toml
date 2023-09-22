@@ -10,7 +10,7 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Fredi Machado"
-intro = "Software Developer @Readify"
+intro = "Software Developer @WooliesX"
 description = "electronics geek, guitarist/drummer, gamer(ish), fascinated by technology and astronomy."
 authorimage = "fredi-machado.jpg"
 dateformat = "Jan 2, 2006"
@@ -30,7 +30,7 @@ twitch = "fredimachadotv"
 
 ## Extras
 [params.extra]
-copyright = "© 2018. Fredi Machado. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2018-2023. Fredi Machado. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = true
 highlightjs = true
 clickyid = "101129702"
@@ -41,8 +41,3 @@ clickyid = "101129702"
     identifier = "about"
     weight = 200
     url = "/about/"
-[[menu.main]]
-    name = "random"
-    identifier = "random"
-    weight = 200
-    url = "/random/"
