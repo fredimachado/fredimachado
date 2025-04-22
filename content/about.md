@@ -2,12 +2,11 @@
 title: "About"
 ---
 
-Hi! I'm Fredi, a software developer @WooliesX, based in Gold Coast, Australia.
+Hi! I'm Fredi, a software engineer @Westpac, based in Gold Coast, Australia.
 
-I'm very passionate about building and delivering great software applications using bleeding edge technology,
-well known practices/techniques and frameworks available.
+I'm very passionate about building and delivering great software applications using .NET and Azure.
 
-I'm a .NET guy and I'm writing C# code most of the time, building websites and applications
-in .NET, .NET Core and Visual Studio/VS Code. I also consider myself to be a gamer, electronics geek, guitarist/drummer, fascinated by technology and astronomy.
+I'm writing C# code most of the time, building Web applications in Visual Studio/VS Code.
+In my spare time you'll find me playing electric guitar, tennis with my wife or cooking Brazillian barbecue.
 
 All the opinions shared on my website, twitter, YouTube videos, streams, etc, are my own and not necessarily those of my employer.
